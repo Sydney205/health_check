@@ -1,0 +1,14 @@
+{
+  "name": "flask_tailwind",
+  "version": "1.0.0",
+  "description": "A Flask + Tailwindcss project skeleton generated using SkelPro",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./App/static/src/styles/tailwind/input.css -o ./App/static/dist/css/output.css --watch"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
