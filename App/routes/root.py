@@ -1,11 +1,13 @@
 from flask import render_template
 from App import app
+import pandas as pd
+import io 
 
 
 
 # The root
-@app.route('/',)
-@app.route("/home",)
+@app.route('/', methods=["GET", "POST"])
+@app.route("/home")
 def home():
     return render_template("index.html")
 
