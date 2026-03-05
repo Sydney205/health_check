@@ -4,7 +4,6 @@ import pandas as pd
 import io 
 
 
-
 # The root
 @app.route('/', methods=["GET", "POST"])
 @app.route("/home")

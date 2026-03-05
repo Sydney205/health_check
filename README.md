@@ -15,7 +15,7 @@ You can also download the raw file and scaffold it locally using skelpro.
 
     To install the Python dependencies used in this project run:
     ```sh
-    pip install -m requirements.txt
+    pip install -r requirements.txt
     ```
 
     and then run `npm install` to install Nodejs dependencies:
